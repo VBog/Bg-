@@ -1,0 +1,171 @@
+﻿<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+	<title></title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="reconnecting-websocket.min.js"></script>
+    <script type="text/javascript" src="general.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+    .blockInputActive, .yandexform {
+		display:table-cell; 
+		vertical-align: middle;
+		padding: 0px 10px;
+    }
+    label.extActiveTitle,
+	span.extHotKeyTitle{
+		font-size: 80%;
+		text-align: center;
+    }
+	span.extHotKeyTitle{
+		font-weight: bold;
+	}
+    #extSiteTree,
+    #extABCindex	{
+		text-align: center;
+		font-size: 80%;
+		width: 100px;
+		margin: 0px auto;
+    }
+	.extSettings {
+		cursor: pointer;
+		background: url('img/options.png');
+		background-size: cover;
+		width: 32px;
+		height:32px;
+	}
+	
+	body {
+		color: #805536;
+		background-color: #F1E9D6;
+		overflow: none;
+	}
+	html {
+		overflow: none;
+	}
+	img#extPlayerHelp {
+		width: 12px;
+		padding: 4px 0px;
+		cursor: help;
+	}
+	#trackName {
+		position: relative;
+		display: block;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		height: 12px;
+		width: 470px;
+		font-size: 11px;
+		text-align: center;
+	}
+    </style>
+</head>
+<body>
+
+	<div id="popup" class="popup"><div>
+	<table>
+	<tr>
+		<td width="90px">
+			<input type="checkbox" id="extActive" name="extActive" class="extActive extCheckBox" value="1"><label for="extActive" id="extActiveTitle" class="extActiveTitle"></label>
+		</td>	
+		<td width="100px" style="text-align: center;">
+<!--			<button id="extSiteTree" class="cupid-green hlink" data-url="https://azbyka.ru/project/index_tree.shtml"></button> -->
+			<button id="extSiteTree" class="cupid-green"></button> 
+		</td>	
+		<td width="200px">
+			<!--ПОИСК ЯНДЕКС-->
+				 <div id="yandexform" class="yandexform">
+					<form action="https://azbyka.ru/sear/" method="get" target="_blank" class="yaform-before-init">
+						<input type="hidden" name="searchid" value="1639178">
+						<input type="submit" value="" class="yaform__submit_image">
+						<input type="search" name="text" id="yaform__search_text" class="yaform__search_text">
+					</form>
+				</div>
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://azbyka.ru",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://azbyka.ru/sear/?searchid=1639178&text={search_term_string}&dir=#1079",
+		"query-input": "required name=search_term_string"
+	}
+}
+</script>
+		</td>
+		<td width="32px"><div id="extSettings" class="extSettings"></div></td>	
+	</tr>
+
+	
+	<tr>
+		<td style="text-align: left;" colspan=4>
+			<div class="decorator"></div>
+		</td>	
+	</tr>
+	<tr>
+		<td style="text-align: left;" colspan=4 width="800px">
+			<div id="extCalendar" class="extCalendar"></div>
+		</td>	
+	</tr>
+	<tr>
+		<td style="text-align: left;" colspan=4>
+			<div class="decorator"></div>
+		</td>	
+	</tr>
+	<tr>
+		<td style="text-align: center;" colspan=4>
+		<table width="100%"><tr>
+		<td style="text-align: left;"><img id="extBible" class="the_button hlink" data-url="https://azbyka.ru/biblia" src="img/biblia.png" width="64px"></td>
+		<td style="text-align: center;">
+			<span id="extABCindex" style="display: none;"></span> 
+			<div class="blockABCtags">
+			<span data-url="https://azbyka.ru/dictionary/01" title="А" class="hlink">А</span>
+			<span data-url="https://azbyka.ru/dictionary/02" title="Б" class="hlink">Б</span>
+			<span data-url="https://azbyka.ru/dictionary/03" title="В" class="hlink">В</span>
+			<span data-url="https://azbyka.ru/dictionary/04" title="Г" class="hlink">Г</span>
+			<span data-url="https://azbyka.ru/dictionary/05" title="Д" class="hlink">Д</span>
+			<span data-url="https://azbyka.ru/dictionary/06" title="Е" class="hlink">Е</span>
+			<span data-url="https://azbyka.ru/dictionary/07" title="Ж" class="hlink">Ж</span>
+			<span data-url="https://azbyka.ru/dictionary/08" title="З" class="hlink">З</span>
+			<span data-url="https://azbyka.ru/dictionary/09" title="И" class="hlink">И</span>
+			<span data-url="https://azbyka.ru/dictionary/10" title="К" class="hlink">К</span>
+			<span data-url="https://azbyka.ru/dictionary/11" title="Л" class="hlink">Л</span>
+			<span data-url="https://azbyka.ru/dictionary/12" title="М" class="hlink">М</span>
+			<span data-url="https://azbyka.ru/dictionary/13" title="Н" class="hlink">Н</span>
+			<span data-url="https://azbyka.ru/dictionary/14" title="О" class="hlink">О</span><br>
+			<span data-url="https://azbyka.ru/dictionary/15" title="П" class="hlink">П</span>
+			<span data-url="https://azbyka.ru/dictionary/16" title="Р" class="hlink">Р</span>
+			<span data-url="https://azbyka.ru/dictionary/17" title="С" class="hlink">С</span>
+			<span data-url="https://azbyka.ru/dictionary/18" title="Т" class="hlink">Т</span>
+			<span data-url="https://azbyka.ru/dictionary/19" title="У" class="hlink">У</span>
+			<span data-url="https://azbyka.ru/dictionary/20" title="Ф" class="hlink">Ф</span>
+			<span data-url="https://azbyka.ru/dictionary/21" title="Х" class="hlink">Х</span>
+			<span data-url="https://azbyka.ru/dictionary/22" title="Ц" class="hlink">Ц</span>
+			<span data-url="https://azbyka.ru/dictionary/23" title="Ч" class="hlink">Ч</span>
+			<span data-url="https://azbyka.ru/dictionary/24" title="Ш" class="hlink">Ш</span>
+			<span data-url="https://azbyka.ru/dictionary/25" title="Э" class="hlink">Э</span>
+			<span data-url="https://azbyka.ru/dictionary/26" title="Ю" class="hlink">Ю</span>
+			<span data-url="https://azbyka.ru/dictionary/27" title="Я" class="hlink">Я</span>
+			</div>
+			<div id="playerPanel" style="display: none;">
+				<img class="smallButton" id="playButton" src="img/play.svg" title="Воспроизвести.">
+				<select id="radioStations">
+				</select>
+				<img id="extPlayerHelp" src="../img/question-mark.svg" />
+			</div>
+			
+		</td>
+		<td style="text-align: right;"><img id="extLibrаry" class="the_button hlink" src="img/otechnik.png" width="64px"></td>
+		</tr>
+		<tr><td colspan=3><div id="trackName" class="marquee"></div></td></tr>
+		</tr></table>
+		</td>	
+	</tr>
+	</table>
+	</div></div>
+	<div id="wait_pls" class="wait_pls"></div>
+</body>
+</html>

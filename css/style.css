@@ -1,0 +1,877 @@
+/************************************************/
+/*			Общие настройки стилей 				*/
+/************************************************/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #342316;
+}
+h1 {
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #805536;
+}
+h2 {
+	font-weight: bold;
+	font-size: 22px;
+	color: #805536;
+}
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #805536;
+}
+h4 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #805536;
+	text-align: center;
+}
+table,  table table{
+	margin: auto;
+	border: 0px;
+	padding: 10px;
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	text-align: left;	
+}
+th {
+	color: #805536;
+	font-size: 16px;
+	font-weight: 700;
+}
+a {
+	color: #18530B;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	cursor: pointer;
+}
+a:hover {
+	color: #2B9614;
+	text-decoration: none;
+}
+a:link {
+	color: #18530B;
+}
+a:hover {
+	color: #2B9614;
+	text-decoration: none;
+	border: 0;
+}
+a:visited {
+	color: #18530B;
+	border: 0;
+}
+a:link {
+	color: #18530B;
+	border: 0;
+}
+select, input[type="text"] {
+color: #333;
+    font-weight: normal;
+    background-color: #F8F4EA;
+    border-width: 2px;
+    border-style: inset;
+    border-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.1);
+    height: 24px;
+}
+/* Виньетка */
+.decorator {
+  position: relative;
+  padding: 0 0 16px 0;
+  margin: 0 0 16px 0;
+  width: 100%;
+}
+.decorator:before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 1px;
+  left: 10px;
+  right: 10px;
+  border-bottom: solid 1px #D2BE8F;
+}
+.decorator:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -12px;
+  margin-left: -62px;
+  width: 126px;
+  height: 26px;
+  background: url('../img/dividers9.svg');
+}
+/* Зелёная кнопка */
+button.cupid-green:active {
+	border: 1px solid #5b992b;
+	border-bottom: 1px solid #538c27;
+	-webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+	-moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+	-ms-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+	-o-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+	box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+}
+button.cupid-green:hover {
+	background-color: #76b347;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+	background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+	background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+	background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+	background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+	background-image: linear-gradient(top, #76b347, #5e9e2e);
+	-webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+	-moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+	-ms-box-shadow: inset 0 1px 0 0 #8dbf67;
+	-o-box-shadow: inset 0 1px 0 0 #8dbf67;
+	box-shadow: inset 0 1px 0 0 #8dbf67;
+	cursor: pointer;
+}
+button.cupid-green {
+	background-color: #7fbf4d;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+	background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+	background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+	background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+	background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+	background-image: linear-gradient(top, #7fbf4d, #63a62f);
+	border: 1px solid #63a62f;
+	border-bottom: 1px solid #5b992b;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+	-moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+	-ms-box-shadow: inset 0 1px 0 0 #96ca6d;
+	-o-box-shadow: inset 0 1px 0 0 #96ca6d;
+	box-shadow: inset 0 1px 0 0 #96ca6d;
+	color: #fff;
+	font: bold 16px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	line-height: 1;
+	padding: 7px 0 8px 0;
+	text-align: center;
+	text-shadow: 0 -1px 0 #4c9021;
+	width: 140px;
+}
+
+/* Бежевая кнопка */
+button.cupid-beige:active {
+	border: 1px solid #d1b374;
+	border-bottom: 1px solid #ebddbe;
+	box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+}
+button.cupid-beige:hover {
+	background-color: #d6c8a7;
+	background-image: -webkit-linear-gradient(top, #d6c8a7, #e9d9b5);
+	box-shadow: inset 0 1px 0 0 #d1b374;
+	cursor: pointer;
+}
+button.cupid-beige {
+	background-color: #e9d9b5;
+	background-image: -webkit-linear-gradient(top, #e9d9b5, #ebddbe);
+	border: 1px solid #ebddbe;
+	border-bottom: 1px solid #d1b374;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #f2ead8;
+	color: #8a5536;
+	font: 16px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	line-height: 1;
+	padding: 7px 0 8px 0;
+	text-align: center;
+	text-shadow: 0 -1px 0 #4c9021;
+	width: 140px;
+}
+
+/* checkbox */
+.extCheckBox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 5px 0 0 10px;
+}
+.extCheckBox + label {
+  position: relative;
+  padding: 0 0 0 36px;
+  cursor: pointer;
+  display: block;
+}
+.extCheckBox + label:before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 32px;
+  height: 20px;
+  border-radius: 10px;
+  background: #CDD1DA;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+  transition: .2s;
+}
+.extCheckBox + label:after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 1px;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  background: #FFF;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+  transition: .2s;
+}
+.extCheckBox:checked + label:before {
+  background: #9FD468;
+}
+.extCheckBox:checked + label:after {
+  left: 13px;
+}
+
+/* radio */
+.extRadio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 0px 0 0 7px;
+}
+.extRadio + label {
+  position: relative;
+  padding: 0 0 0 25px;
+  cursor: pointer;
+}
+.extRadio + label:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #CDD1DA;
+  border-radius: 50%;
+  background: #FFF;
+}
+.extRadio + label:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #9FD468;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+  opacity: 0;
+  transition: .2s;
+}
+.extRadio:checked + label:after {
+  opacity: 1;
+}
+
+/************************************************/
+/*			Страница настроек					*/
+/************************************************/
+.extOptions td, .extOptions th {
+	vertical-align: text-top;
+}
+.saveResult {
+	position: absolute;
+	top: 67px;
+	left: 165px;
+	background-color: #F8F4EA;
+	padding: 5px;
+	color: darkred;
+	display: none;
+	border-radius: 5px;
+	border: 1px inset #F8F4EA;
+	width: 300px;
+	text-align: center;
+}
+
+/* Вкладки */
+.tabs {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	background-color: #805536;
+	color: #FFFFFF;
+}
+.tabs:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 330px;
+}
+.tabs li {
+	float: left;
+}
+.tabs li > input {
+	display: none;
+}
+.tabs .tab-content {
+	display: none;
+	position: absolute;
+	top: 34px;
+	height: 330px; 
+	left: 0;
+	padding: 10px;
+	padding-top: 16px;
+/*	padding-bottom: 140px; */
+	margin-bottom: 10px;
+/*	border: 0px solid #999;
+	border-radius: 0px 5px 5px 5px;
+	box-shadow: 3px -3px 4px rgba(0,0,0,0.1);  Параметры тени */
+	background-color: #F1E9D6;
+}
+
+.tabs li > label {
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	margin-left: 8px;
+	margin-right: -10px;
+	width: 180px;
+	height: 34px;
+	text-align: left;
+}
+.tabs li > label  > span{
+	margin: 8px 20px 2px 20px;
+	display: inline-block;
+}
+.tabs li:last-child > label {
+	border-right-width: 1px;
+}
+.tabs li > input + label {
+	position: relative;
+	font-weight: normal;
+	border-right: 1px solid #7F7766;
+}
+.tabs li > input + label span {
+	width: 100%;
+}
+.tabs li > input:checked + label {
+	border: 0px;
+	border-radius: 10px 10px 0px 0px; 
+	font-weight: normal;
+	color: #805536;
+	background-color: #F1E9D6;
+	box-shadow: 3px -3px 4px rgba(0,0,0,0.1); 
+	z-index: 10;
+}
+/* Прямоугольники */
+.tabs li > input:checked + label::before, 
+.tabs li > input:checked + label::after {
+	position: absolute;
+	display: inline-block;
+	background: #F1E9D6;
+	width: 6px;
+	height: 6px;
+	z-index: 0;
+	content: " ";
+	bottom: 0px;
+}
+.tabs li > input:checked + label::before {
+	left: -6px;
+}
+.tabs li > input:checked + label::after {
+	right: -6px;
+}
+/* Окружности */
+.tabs li > input:checked + label span::after, 
+.tabs li > input:checked + label span::before {
+	position: absolute;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: 0px;
+	border-radius: 6px;
+	background: #805536;
+	content: " ";
+ /* Окружности над прямоугольниками */
+	z-index: 2;
+	bottom: 0px;
+}
+.tabs li > input:checked + label span::before {
+	left: -13px;
+}
+.tabs li > input:checked + label span::after {
+	right: -13px;
+}
+.tabs li > input:checked ~ .tab-content {
+	display: block;
+}
+
+*:disabled, .disabled {
+	color: #888888;
+}
+
+/************************************************/
+/*				Всплывающее окно				*/
+/************************************************/
+.popup, .ad {
+	width: 500px;
+	border: 2px #cf7558 solid;
+	padding: 1px;
+	margin-bottom: 5px;
+}	
+div.popup > div,  div.ad > div{
+	border: 1px #cf7558 solid;
+	padding: 6px;
+}
+.popup h4 {
+	font-family: Times, serif;
+	font-size: 20px;
+	margin: 8px;
+}	
+.popup h4 .oldstyle {
+	font-weight: normal;
+	font-size: 16px;
+}
+.popup h5 {
+	font-family: Times, serif;
+	font-size: 20px;
+	margin: 6px;
+	text-align: center;
+}	
+.popup h6 {
+	font-size: 14px;
+	margin: 2px;
+}	
+
+/* вкл./выкл. подсветки ссылок */
+.extActive + label {
+  padding: 0 0 0 28px;	
+}
+.extActive + label:before {
+  top: 5px;
+}
+.extActive + label:after {
+  top: 6px;
+}
+
+/* ссылки */
+.hlink {
+	cursor: pointer;
+}
+.hlink:hover {
+	background-color: #F8F4EA;
+	outline: 1px solid #F8F4EA;
+}
+
+.hxml {
+	cursor: pointer;
+}
+.hxml:hover {
+	background-color: #F8F4EA;
+	outline: 1px solid #F8F4EA;
+}
+p.content {
+	font-size: 12px;
+	margin: 2px;
+	margin-bottom: 12px;	
+}
+
+/* большие кнопки: Библия и Отечник */
+.the_button {
+	cursor: pointer;
+	border: solid 1px #D2BE8F;
+	border-radius: 10px;
+    filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
+	border-spacing: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.the_button:hover {
+	outline: 0px;
+	background-color: inherit;
+    filter: drop-shadow(0 0 4px rgba(255,255,255,0.0));
+}
+
+/* маленькие кнопки: звук вкл./выкл., домой, назад*/
+.smallButton {
+	cursor: pointer;
+	border: solid 1px #D2BE8F;
+	border-radius: 10px;
+    filter: drop-shadow(0 0 1px rgba(0,0,0,0.5));
+	border-spacing: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.smallButton:hover {
+	outline: 0px;
+	background-color: inherit;
+    filter: drop-shadow(0 0 1px rgba(255,255,255,0.0));
+}
+
+/* Календарь */	
+/* контейнер данных о дне */
+div#calData {
+	max-height: 230px; 
+	overflow-y: auto;
+}
+div#calData::-webkit-scrollbar {
+	width: 8px;
+}
+div#calData::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+div#calData::-webkit-scrollbar-thumb {
+	background-color:#D5C294;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.5);
+}
+#calIconImage {
+	width: 130px;
+	text-align: center;
+}
+img.calDayImage {
+	max-width: 120px;
+    max-height: 160px;
+    padding-right: 10px;
+}
+.calImageCaption {
+	text-align: center;
+	color: darkred;
+	font-size: 12px;
+	font-weight: bold;
+	width: 100%;
+}
+.calWeek {
+	display: inline-block;
+	height: 32px;
+}
+.calWeek, .calDayEvent{
+	color: #CE825C;
+	font-size: 16px;
+}	
+.calVoice{
+	font-size: 12px;
+}	
+.calFasting{
+	font-size: 12px;
+}
+.calTipicon0 {
+	font-weight: bold;
+}	
+.calTipicon1, .calTipicon2 {
+	color: red;
+	font-weight: bold;
+}
+.calTipicon3, .calTipicon4 {
+	font-weight: bold;
+}
+.calHolidays{
+	font-size: 16px;
+}	
+.calSaints, .calIkons {
+	font-size: 14px;
+}
+.calTexts {
+	font-size: 12px;
+}
+.calPrev {
+	width: 30px;
+	background: url(../img/day.svg#prev) left center/31px 40px no-repeat;
+	cursor: pointer;
+}
+.calNext {
+	width: 30px;
+	background: url(../img/day.svg#next) left center/31px 40px no-repeat;
+	cursor: pointer;
+}
+#calSetDay {
+	border: 0px;
+	width:18px;
+	height: 18px; 
+	margin: 1px;
+	background: transparent url(../img/calendar_2.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+#calSetDay:focus {
+	outline: 0px;
+}
+#calSetDay::-webkit-datetime-edit { display: none;} 
+#calSetDay::-webkit-inner-spin-button { display: none; }
+#calSetDay::-webkit-clear-button { display: none; }
+#calSetDay::-webkit-calendar-picker-indicator { background: transparent; cursor: pointer;  opacity: 0; }
+
+@-moz-document url-prefix() {
+	#calSetDay {display: none;}
+}
+
+/* Поиск */	
+.yaform__submit_image {
+    width: 24px;
+    height: 24px;
+    outline: none;
+	margin: 0px;
+	padding: 0px;
+    cursor: pointer;
+    border: 1px #7f9db9 solid;
+    border-radius: 3px;
+    background-color: #efeeea;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/search.png);
+    background-image: url(../img/search.png), -webkit-linear-gradient(135deg, #e1dfd7, #fefefe);
+    background-image: url(../img/search.png), -o-linear-gradient(135deg, #e1dfd7, #fefefe);
+    background-image: url(../img/search.png), linear-gradient(-45deg, #e1dfd7, #fefefe);
+}
+.yaform__search_text {
+	float: right;
+	height: 24px;
+    line-height: normal;
+	width: 170px;
+	border-right: 0;
+	border-radius: 3px 0 0 3px;
+	padding-left: 2px;
+}
+.yaform__submit_image {
+	float: right;
+	border-radius: 0 3px 3px 0;
+}
+.yaform-before-init {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Алфавитный указатель */
+.blockABCtags {
+	line-height:26px;
+}
+.blockABCtags span {
+	font-size: 14px;
+	font-weight: bold;
+	line-height:16px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	border: solid 1px #D2BE8F;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+	border-spacing: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.blockABCtags span:hover {
+	outline: 0px;
+	box-shadow: 0 -2px 2px rgba(0,0,0,0.5);
+}
+
+
+/* Древо сайта */
+span.moresites,
+span.siteleaf  {
+    width: 213px;
+    display: table-cell;
+    height: 32px;
+    vertical-align: middle;
+	padding-left: 10px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: opacity .25s linear;
+    -moz-transition: opacity .25s linear;
+    -webkit-transition: opacity .25s linear;
+    -o-transition: opacity .25s linear;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+}
+span.moresites:hover,
+span.siteleaf:hover {
+	opacity: 0.6;
+	box-shadow: none;
+}
+span.moresites  {
+	background: #d6c8a7; /* Old browsers */
+	background: -moz-linear-gradient(top, #d6c8a7 0%, #d1c2a0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6c8a7), color-stop(100%,#d1c2a0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d6c8a7 0%,#d1c2a0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d6c8a7 0%,#d1c2a0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #d6c8a7 0%,#d1c2a0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #d6c8a7 0%,#d1c2a0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6c8a7', endColorstr='#d1c2a0',GradientType=0 ); /* IE6-9 */
+	color: #57503f;
+	font-style: italic;
+}
+span.siteleaf {
+	background: #e9d9b5; /* Old browsers */
+	background: -moz-linear-gradient(top, #e9d9b5 0%, #ebddbe 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e9d9b5), color-stop(100%,#ebddbe)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e9d9b5 0%,#ebddbe 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e9d9b5 0%,#ebddbe 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e9d9b5 0%,#ebddbe 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #e9d9b5 0%,#ebddbe 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9d9b5', endColorstr='#ebddbe',GradientType=0 ); /* IE6-9 */
+	color: #57503f;
+}
+.siteleaf img {
+	width: 19px; 
+	height: 19px;
+	border: 1px solid #D2BE8F;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+    vertical-align: middle;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+}
+summary {
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline-block;
+	border: 2px outset #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 130px;
+	padding: 3px 40px;
+}
+details p {
+	text-align: justify;
+	padding-right: 8px;
+
+}
+div.info {
+	height: 22px;
+	line-height: 22px;
+	width: calc(100% - 22px);
+	background-color: #7fc7ff;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin: 5px -2px 0px -2px;
+}
+div.info:hover {
+	background-color: #7fc7ff;
+	color: red;
+	outline: 0px;
+}
+
+div.lc {
+	height: 24px;
+	line-height: 24px;
+	width: 11px;
+    left: -11px;
+    background: url(../img/post.svg#l) no-repeat;
+    content: '#l';
+	display: inline-block;
+}
+div.rc {
+	height: 24px;
+	line-height: 24px;
+	width: 11px;
+    right: -11px;
+    background: url(../img/post.svg#r) no-repeat;
+    content: '#r';
+	display: inline-block;
+}
+div.tooltip {
+	position: fixed;
+	padding: 10px 20px;
+	overflow-y: auto; 	/* Разрешить при необходимости скроллинг по вертикали */
+	overflow-x: hidden; /* Запретить скроллинг по горизонтали */
+    z-index: 101; 		/* Отображаем подсказку поверх других элементов */
+  /* красивости... */
+
+	border: 1px solid #b3c9ce;
+	border-radius: 4px;
+	text-align: justify;
+	font-family: sans-serif;
+    font-size: 12px;
+	color: #333;
+	background: #fff;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+div.tooltip::-webkit-scrollbar {
+	width: 8px;
+}
+div.tooltip::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+	border-radius: 5px;
+}
+div.tooltip::-webkit-scrollbar-thumb {
+	background-color:#aaa;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.5);
+}
+
+#popup_BG_overlay {
+  background-color: #000;	/* Чёрный фон */
+  height: 100%;				/* Высота максимальна */
+  left: 0;					/* Нулевой отступ слева */
+  opacity: 0.10;			/* Степень прозрачности */
+  position: fixed;			/* Фиксированное положение */
+  top: 0;					/* Нулевой отступ сверху */
+  width: 100%;				/* Ширина максимальна */
+  z-index: 100;				/* Заведомо быть НАД другими элементами */
+}
+
+
+#dashboard {
+	margin-bottom: 5px;
+	padding: 5px 0px;
+	border-bottom: 1px solid #D2BE8F;
+	height: 32px;
+}
+img#backButton {
+	vertical-align: middle; 
+	width: 32px; 
+	height: 32px;
+	border-radius: 16px;
+}
+img#homeButton {
+	vertical-align: middle; 
+	width: 32px; 
+	height: 32px;
+	border-radius: 16px;
+}
+img#playButton {
+	vertical-align: middle; 
+	width: 32px; 
+	height: 32px;
+	border-radius: 16px;
+	border-color: transparent;
+}
+div#playerPanel {
+	padding: 5px 0px;
+}
+
+img.thumbnail {
+	background-color: #F8F4EA;
+	vertical-align: top; 
+	width: 64px; 
+	height: 64px;
+	border-width: 2px;
+    border-style: inset;
+    border-color: #fff;	border-radius: 10px;
+    float:left; /* Выравнивание по левому краю */
+    margin: 2px 7px 7px 0px; /* Отступы вокруг картинки */
+	object-fit: cover;
+}
+.hxml h6{
+	color: brown;
+}
+div.wait_pls {
+	position: relative;
+	display: none;
+    left: 50%;
+    bottom: 52px;
+	width: 34px;
+	height: 34px; 
+    transform: translate(-50%,-50%); 
+    z-index: 1100; 
+	margin:0px;
+    padding: 0px;
+    background: url("wait.gif") 50% 50% no-repeat;
+    background-size: 300%;
+}

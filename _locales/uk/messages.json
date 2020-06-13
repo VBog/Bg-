@@ -1,0 +1,354 @@
+{
+   "extDescription": {
+      "description": "",
+      "message": "Церковний календар і посилання на вказані в текстах вірші Біблії, праці Святих отців і церковних письменників."
+   },
+   "extName": {
+      "description": "",
+      "message": "Азбука віри"
+   },
+
+   "extOptions": {
+      "description": "",
+      "message": "Параметри"
+   },
+   "extReadMe": {
+      "description": "",
+      "message": "Опис розширення"
+   },
+   "extWebStore": {
+      "description": "",
+      "message": "Розширення у Web Store"
+   },
+
+    "extActiveTitle": {
+      "description": "",
+      "message": "Підсвічування посилань"
+	},
+    "extSiteTree": {
+      "description": "",
+      "message": "Дерево сайту"
+	},
+    "extCalendar": {
+      "description": "",
+      "message": "Календар"
+	},
+    "extCatalogue": {
+      "description": "",
+      "message": "Каталог"
+	},
+    "extSearchPlaceholder": {
+      "description": "",
+      "message": "Пошук по «Азбуці віри»"
+	},
+    "extABCindex": {
+      "description": "",
+      "message": "Словник:"
+	},
+    "extBibleTitle": {
+      "description": "",
+      "message": "Біблія"
+	},
+    "extLibraryTitle": {
+      "description": "",
+      "message": "Бібліотека Святих отців і церковних письменників"
+	},
+    "extLibraryLink": {
+      "description": "",
+      "message": "https://azbyka.ru/otechnik"
+	},
+
+  
+	"extTab1Desc": {
+		"description": "",
+		"message": "Загальні"
+	},
+	"extTab2Desc": {
+		"description": "",
+		"message": "Посилання на Біблію"
+	},
+	"extDefPopupDesc": {
+		"description": "",
+		"message": "Вікно розширення за замовчуванням:"
+	},
+	"extCalendarDesc": {
+		"description": "",
+		"message": "Православний календар"
+	},
+	"extCatalogDesc": {
+		"description": "",
+		"message": "Каталоги порталу «Азбука віри»"
+	},
+	"extTreeDesc": {
+		"description": "",
+		"message": "Дерево сайту «Азбука віри»"
+	},
+	"extTroparionDesc": {
+		"description": "",
+		"message": "Тропарі і кондаки"
+	},
+	"extDateDesc": {
+		"description": "",
+		"message": "Підсвічування календарних дат"
+	},
+	"extDateHelp": {
+		"description": "",
+		"message": "Розширення знаходить у тексті календарні дати та додає до них посилання\nна відповідні дні у Православному Церковному календарі."
+	},
+ 	"extAuthorLinkDesc": {
+      "description": "",
+      "message": "Підсвічування імен Святих отців і церковних письменників"
+   },
+ 	"extAuthorLinkHelp": {
+      "description": "",
+      "message": "Розширення знаходить у тексті імена відомих авторів та додає посилання\nна відповідні праці у Бібліотеці Святих отців і церковних письменників."
+   },
+ 	"extTermLinkDesc": {
+      "description": "",
+      "message": "Підсвічування богословських термінів"
+   },
+ 	"extTermLinkHelp": {
+      "description": "",
+      "message": "Розширення знаходить у тексті богословські терміни та додає до них посилання\nна словникові статті енциклопедії «Азбука віри»."
+   },
+   
+ 	"extWestEstColDesc": {
+      "description": "",
+      "message": "Колізія між західною та східною нотаціями"
+   },
+ 	"extWestEstColHelp": {
+      "description": "",
+      "message": "Розширення підсвічує посилання як у східній, так і у західній нотації. При цьому може виникнути колізія\nз правильністю трактування посилання, яке містить два числа, вказаних через кому (наприклад, Пс. 4,6).\nУ західній традиції це буде посилання на Псалом 4 вірш 6, а у східній - посилання на Псалми 4 та 6.\nВи можете самостійно вибрати, як інтерпретувати такі посилання, вказавши це в налаштуваннях,\nабо оперативно перемкнутися між режимами на сторінці, натиснувши комбінацію клавіш Ctrl+Alt+N."
+   },
+	"extPlayerHelp": {
+      "description": "",
+      "message": "Комбінация клавіш Ctrl+Shift+0\nдопоможе увімк./вимк. аудіоплеєр\nпри закритому вікні розширення\nі навіть при непрацюючому Chrome"
+	},        
+   "PlayTitle": {
+      "description": "",
+      "message": "Відтворити"
+   },        
+   "PauseTitle": {
+      "description": "",
+      "message": "Пауза"
+   },   "txtcolorDesc": {
+      "description": "",
+      "message": "Колір тексту посилань:"
+   },
+   "bgcolorDesc": {
+      "description": "",
+      "message": "Колір фону посилань:"
+   },
+
+   "extHotKeyDesc": {
+      "description": "",
+      "message": " - увімк./вимк. підсвічування всіх посилань"
+   },
+
+   "azbykaLangs": {
+      "description": "",
+      "message": "Мови тексту Біблії на Azbyka.ru"
+   },
+   "cLang": {
+      "description": "",
+      "message": "Церковнослов'янська"
+   },
+   "rLang": {
+      "description": "",
+      "message": "Російська"
+   },
+   "gLang": {
+      "description": "",
+      "message": "Грецька"
+   },
+   "lLang": {
+      "description": "",
+      "message": "Латинська"
+   },
+   "iLang": {
+      "description": "",
+      "message": "Іврит"
+   },
+
+   "aLang": {
+      "description": "",
+      "message": "Англійська"
+   },
+   "nLang": {
+      "description": "",
+      "message": "Арабська"
+   },
+   "vLang": {
+      "description": "",
+      "message": "Білоруська"
+   },
+   "uLang": {
+      "description": "",
+      "message": "Грузинська"
+   },
+   "wLang": {
+      "description": "",
+      "message": "Іспанська"
+   },
+   "sLang": {
+      "description": "",
+      "message": "Киргизька"
+   },
+   "qLang": {
+      "description": "",
+      "message": "Китайська (спр.)"
+   },
+   "mLang": {
+      "description": "",
+      "message": "Німецька"
+   },
+ 	"zLang": {
+      "description": "",
+      "message": "Сербська"
+   },
+   "pLang": {
+      "description": "",
+      "message": "Таджицька"
+   },
+   "tLang": {
+      "description": "",
+      "message": "Татарська"
+   },
+   "oLang": {
+      "description": "",
+      "message": "Узбецька"
+   },
+   "kLang": {
+      "description": "",
+      "message": "Українська"
+   },
+   "hLang": {
+      "description": "",
+      "message": "Французька"
+   },
+
+   "azbykaFont": {
+      "description": "",
+      "message": "Шрифт для церковнослов'янського тексту"
+   },
+   "ucsFont": {
+      "description": "",
+      "message": "Церковнослов'янський шрифт"
+   },
+   "rusFont": {
+      "description": "",
+      "message": "Російські літери (\"Старий\" стиль)"
+   },
+  
+   
+ 	"extReplaceHrefDesc": {
+      "description": "",
+      "message": "Посилання на Біблію на інших сайтах заміняти посиланнями на Біблію на «Азбуці віри»"
+   },
+ 	"extNoDotDesc": {
+      "description": "",
+      "message": "Відсутність крапки після назви книги - для цілих слів (Іов, Рут та ін.)\nдозволена завжди."
+   },
+
+ 	"extWestEstCol0Exm": {
+      "description": "",
+      "message": "західна нотація: Пс.4,6 -  псалом 4 вірш 6."
+   },
+ 	"extWestEstCol1Exm": {
+      "description": "",
+      "message": "східна нотація: Пс.4,6 - псалми 4 та 6."
+   },
+ 	"extWestEstTriggerDesc": {
+      "description": "",
+      "message": " - перемикання режимів"
+   },
+ 	"extPopupVersesDesc": {
+      "description": "",
+      "message": " Спливаюче вікно з текстом Біблії"
+   },
+ 	"extInterpretationDesc": {
+      "description": "",
+      "message": " Посилання на тлумачення Біблії"
+   },
+ 	"extInterpretationTitle": {
+      "description": "",
+      "message": "Перейти до тлумачень О.П.Лопухіна"
+   },
+ 	"extBookTitle": {
+      "description": "",
+      "message": "Перейти до тексту Біблії"
+   },
+   
+ 	"langBibleDesc": {
+   
+      "description": "",
+      "message": "Мова Біблії в підказці:"
+   },
+ 	"sysBible": {
+      "description": "",
+      "message": "Системна мова"
+   },
+ 	"cuBible": {
+      "description": "",
+      "message": "Церковнослов'янська"
+   },
+ 	"ruBible": {
+      "description": "",
+      "message": "Російська"
+   },
+ 	"beBible": {
+      "description": "",
+      "message": "Білоруська"
+   },
+ 	"ukBible": {
+      "description": "",
+      "message": "Українська"
+   },
+ 	"srBible": {
+      "description": "",
+      "message": "Сербська"
+   },
+ 	"enBible": {
+      "description": "",
+      "message": "Англійська"
+   },
+   
+
+   "saveResult": {
+      "description": "",
+      "message": "Зберегти"
+   },
+   "saveResultDesc": {
+      "description": "",
+      "message": "Параметри збережені"
+   },
+   "resetOptions": {
+      "description": "",
+      "message": "Скидання"
+   },
+   "resetOptionsDesc": {
+      "description": "",
+      "message": "Налаштування за замовчуванням відновлені"
+   },
+   "extCopyright": {
+      "description": "",
+      "message": "Православна енциклопедія «Азбука віри»"
+   },
+   "extVersion": {
+      "description": "",
+      "message": "Версія"
+   },
+   
+   "extReview1": {
+      "description": "",
+      "message": "Якщо вам сподобалося наше розширення, оцініть його в"
+   },
+   "webStore": {
+      "description": "",
+      "message": "Веб-магазині Chrome"
+   },
+   "extReview2": {
+      "description": "",
+      "message": "Ми будемо вдячні, якщо ви напишите про нього декілька слів"
+   }
+}

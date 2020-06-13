@@ -1,0 +1,271 @@
+﻿<html>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+	<title></title>
+    <script type="text/javascript" src="options.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+	html, body {
+		width: 630px;
+		min-height: 400px;
+		margin: 0px;
+		overflow-x:hidden;
+		overflow-y:auto;
+		background-color: #F1E9D6;
+		font-size: 12px;
+	}	
+	div.extWindow {
+		width: 100%;
+		margin: 0px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	div.extOptions {
+		width: 100%;
+		background-color: #F1E9D6;
+	}
+	div.extFooter {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 8px;
+		border-radius: 10px 10px 10px 10px; 
+		z-index:10;
+	}
+	
+	
+	summary {
+		font-weight: bold;
+		font-size: 18px;
+		color: #805536;
+		text-align: left;
+	}
+	table {
+		width: 610px;
+		font-size: 14px;
+	}
+	.options td {
+		padding-bottom: 8px;
+	}
+	input#extHotKey, input#extWestEstTrigger {
+		font-weight: bold;
+		font-size: 14px;
+		width: 24px;
+		text-align: center;
+		color: #342316;
+	}
+	.ad {
+		width: 600px;
+		margin: 8px auto;
+		color: #342316;
+	}
+	label > img {
+		width: 12px; 
+		cursor: help;
+	}
+	div.extReview, div.extVersion {
+		text-align: center;
+	}
+	div.extVersion {
+		padding: 7px 0px;
+	}
+	
+    </style>
+</head>
+<body>
+
+<div id="extWindow" class="extWindow">
+
+	<div class="extOptions">
+	<ul class="tabs">
+		<li>
+			<input type="radio" name="tabs" id="tab-1" checked>
+			<label for="tab-1" id="extTab1Desc"><span></span></label>
+			<div class="tab-content">
+			<table class="options">
+<!--
+				<tr>
+					<th colspan=2>
+						<label><span id="extDefPopupDesc"></span></label>
+					</th>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type="radio" id="extCalendar" name="extDefPopup" class="extRadio" value="1"> 
+						<label for="extCalendar"><span id="extCalendarDesc"></span></label>
+						<input type="radio" id="extCatalog" name="extDefPopup" class="extRadio" value="2"> 
+						<label for="extCatalog"><span id="extCatalogDesc"></span></label>
+						<input type="radio" id="extTree" name="extDefPopup" class="extRadio" value=""> 
+						<label for="extTree"><span id="extTreeDesc"></span></label>
+					</td>
+				</tr>
+-->
+				<tr>
+					<td colspan=2>
+						<input type="checkbox" name="extTroparion" id="extTroparion" class="extCheckBox" value="1" /> 
+						<label for="extTroparion"><span id="extTroparionDesc"></span></label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type="checkbox" name="extDate" id="extDate" class="extCheckBox" value="1" />
+						<label for="extDate"><span id="extDateDesc"></span> <img id="extDateHelp" src="../img/question-mark.svg" /></label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type="checkbox" id="extAuthorLink" name="extAuthorLink" class="extCheckBox" value="1">
+						<label for="extAuthorLink"><span id="extAuthorLinkDesc"></span> <img id="extAuthorLinkHelp" src="../img/question-mark.svg" /></label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type="checkbox" id="extTermLink" name="extTermLink" class="extCheckBox" value="1">
+						<label for="extTermLink"><span id="extTermLinkDesc"></span> <img id="extTermLinkHelp" src="../img/question-mark.svg" /></label>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%">
+						<input type="checkbox" id="colorOfHighlightOn" name="colorOfHighlightOn" class="extCheckBox" value="1">
+						<label for="colorOfHighlightOn"><span id="txtcolorDesc"></span>
+						<input type="color" name="colorOfHighlight" size="25" id="colorOfHighlight" /></label>
+					</td>
+					<td>
+						<input type="checkbox" id="bgcolorOfHighlightOn" name="bgcolorOfHighlightOn" class="extCheckBox" value="1">
+						<label for="bgcolorOfHighlightOn"><span id="bgcolorDesc"></span>
+						<input type="color" name="bgcolorOfHighlight" size="25" id="bgcolorOfHighlight" /></label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<b>Ctrl+Alt+</b><input type="text" name="extHotKey" size="1" id="extHotKey" maxlength="1" /> 
+						<label for="extHotKey"><span id="extHotKeyDesc"></span></label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type="checkbox" id="extReplaceHref" name="extReplaceHref" class="extCheckBox" value="1">
+						<label for="extReplaceHref"><span id="extReplaceHrefDesc"></span></label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type="checkbox" id="extPopupVerses" name="extPopupVerses" class="extCheckBox" value="1">
+						<label for="extPopupVerses"><span id="extPopupVersesDesc"></span></label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<span id="langBibleDesc"></span>
+						<select id="langBible">
+							<option id="sysBible" value="system"></option>
+							<option id="cuBible" value="cu"></option>
+							<option id="ruBible" value="ru"></option>
+							<option id="beBible" value="be"></option>
+							<option id="ukBible" value="uk"></option>
+							<option id="srBible" value="sr"></option>
+							<option id="enBible" value="en"></option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2>
+						<input type="checkbox" id="extInterpretation" name="extInterpretation" class="extCheckBox" value="1">
+						<label for="extInterpretation"><span id="extInterpretationDesc"></span></label>
+					</td>
+				</tr>
+			</table>
+			<div class="ad">
+				<div class="extReview">
+					<span id="extReview1"></span> <a id="webStoreLink" href="https://chrome.google.com/webstore/detail/apkkllhahggfkhfdlmpopcncnaiclfdm/reviews"><span id="webStore"></span></a>.<br>
+					<span id="extReview2"></span>.
+				</div>
+			</div>
+			</div>
+		</li>
+		<li>
+			<input type="radio" name="tabs" id="tab-2">
+			<label for="tab-2" id="extTab2Desc"><span></span></label>
+			<div class="tab-content">
+			<table class="options">
+				<tr>
+					<th width="100%" colspan=3><span id="azbykaLangs"></span></th>
+				</tr>
+				<tr>
+					<td width="28%">
+						<input type="checkbox" id="c_lang" name="c_lang" value="c"> <span id="cLang"></span><br />
+						<input type="checkbox" id="r_lang" name="r_lang" value="r"> <span id="rLang"></span><br />
+						<input type="checkbox" id="g_lang" name="g_lang" value="g"> <span id="gLang"></span><br />
+						<input type="checkbox" id="l_lang" name="l_lang" value="l"> <span id="lLang"></span><br />
+						<input type="checkbox" id="i_lang" name="i_lang" value="i"> <span id="iLang"></span><br />
+					</td>
+					<td width="24%">
+						<input type="checkbox" id="a_lang" name="a_lang" value="a"> <span id="aLang"></span><br />
+						<input type="checkbox" id="n_lang" name="n_lang" value="n"> <span id="nLang"></span><br />
+						<input type="checkbox" id="v_lang" name="v_lang" value="v"> <span id="vLang"></span><br />
+						<input type="checkbox" id="u_lang" name="u_lang" value="u"> <span id="uLang"></span><br />
+						<input type="checkbox" id="w_lang" name="w_lang" value="w"> <span id="wLang"></span><br />
+					</td>
+					<td width="24%">
+						<input type="checkbox" id="s_lang" name="s_lang" value="s"> <span id="sLang"></span><br />
+						<input type="checkbox" id="q_lang" name="q_lang" value="q"> <span id="qLang"></span><br />
+						<input type="checkbox" id="m_lang" name="m_lang" value="m"> <span id="mLang"></span><br />
+						<input type="checkbox" id="z_lang" name="z_lang" value="z"> <span id="zLang"></span><br />
+						<input type="checkbox" id="p_lang" name="p_lang" value="p"> <span id="pLang"></span><br />
+					</td>
+					<td width="24%">
+						<input type="checkbox" id="t_lang" name="t_lang" value="t"> <span id="tLang"></span><br />
+						<input type="checkbox" id="o_lang" name="o_lang" value="o"> <span id="oLang"></span><br />
+						<input type="checkbox" id="k_lang" name="k_lang" value="k"> <span id="kLang"></span><br />
+						<input type="checkbox" id="h_lang" name="h_lang" value="h"> <span id="hLang"></span><br />
+					</td>
+				</tr>
+				<tr>
+					<td colspan=4>
+						<span id="azbykaFont"></span>
+						<select id="c_font">
+							<option id="ucsFont" value="ucs"></option>
+							<option id="rusFont" value="rus"></option>
+						</select>
+					</td>
+				<tr>
+					<td colspan=4>
+						<input type="checkbox" id="extNoDot" name="extNoDot" class="extCheckBox" value="1"> 
+						<label for="extNoDot"><span id="extNoDotDesc"></span></label>
+					</td>
+				</tr>
+				<tr>
+					<th colspan=4>
+						<label><span id="extWestEstColDesc"></span> <img id="extWestEstColHelp" src="../img/question-mark.svg" /></label>
+					</th>
+				</tr>
+				<tr>
+					<td colspan=4>
+						<input type="radio" id="extWestEstCol0" name="extWestEstCol" class="extRadio" value=""> 
+						<label for="extWestEstCol0"><span id="extWestEstCol0Exm"></span></label><br>
+						<input type="radio" id="extWestEstCol1" name="extWestEstCol" class="extRadio" value="1"> 
+						<label for="extWestEstCol1"><span id="extWestEstCol1Exm"></span></label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=4>
+						<b>Ctrl+Alt+</b><input type="text" name="extWestEstTrigger" size="1" id="extWestEstTrigger" maxlength="1" /> 
+						<label for="extWestEstTrigger"><span id="extWestEstTriggerDesc"></span></label>
+					</td>
+				</tr>
+			</table>
+			</div>
+		</li>
+	</ul>
+	</div>
+
+	<div class="extFooter">
+		<div class="decorator"></div>		
+		<button id="save" class="cupid-green"></button>   <button id="reset" class="cupid-beige"></button>
+		<br>
+		<div class="extVersion">© <a href="https://azbyka.ru/extension"><span id="extCopyright"></span></a> <span id="extVersion"></span></div>
+		<div id="saveResult" class="saveResult"></div>
+	</div>
+</div>
+</body>
+</html>

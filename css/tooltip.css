@@ -1,0 +1,101 @@
+/*****************************************
+	Всплывающие подсказки у ссылок
+******************************************/
+.bg_data_title {
+    position: static; /* Относительное позиционирование */
+	white-space: nowrap;/* Запрет переноса строк ссылки */
+	cursor: pointer;	/* Курсор - указатель */
+}
+.bg_data_tooltip {
+	display: none;
+    position: absolute; /* Абсолютное позиционирование */
+	white-space: normal;/* В подсказке перенос строк разрешен */
+	overflow-y: hidden; 	/* Разрешить при необходимости скроллинг по вертикали */
+	overflow-x: hidden; /* Запретить скроллинг по горизонтали */
+    z-index: 101; 		/* Отображаем подсказку поверх других элементов */
+	left: 0px; 
+	top: 80px; 							/* Вертикальное положение подсказки */
+	width: 240px;						/* Ширина подсказки */
+	max-height: 240px;					/* Максимальная высота подсказки */
+	max-width: 600px;					/* Максимальная ширина подсказки */
+	margin: 0px;						/* Отступ = 0 */
+    padding:  5px 5px 5px 10px; 		/* Поля */
+    border: 1px solid #767676; 			/* Параметры рамки */
+	font-family: sans-serif !important;	/* Вид шрифта */
+	font-size: 12px !important; 		/* Размер текста стиха */
+	font-style: normal !important;		/* Стиль текста */
+	font-weight: normal !important;		/* Толщина шрифта текста */
+	font-stretch: normal !important;	/* Начертание шрифта текста */
+    color: #000000 !important; 			/* Цвет текста */
+	text-decoration: none !important; 	/* Без подчеркивания */
+	text-align: start !important;		/* Прижать текст влево */
+    background-color: rgba(253,253,255,0.99); 	/* Полупрозрачный цвет фона */
+	box-shadow: 5px 5px 5px -3px rgba(118, 118, 118, 0.9);	/* Тень	*/
+	-webkit-box-shadow: 5px 5px 5px -3px rgba(118, 118, 118, 0.9);
+	-moz-box-shadow: 5px 5px 5px -3px rgba(118, 118, 118, 0.9);
+    border-radius: 4px;	
+
+}
+.bg_data_tooltip a {
+	font-family: sans-serif !important;	/* Вид шрифта */
+	font-size: 12px !important; 		/* Размер текста стиха */
+	font-style: normal !important;		/* Стиль текста */
+	font-weight: normal !important;		/* Толщина шрифта текста */
+	font-stretch: normal !important;	/* Начертание шрифта текста */
+    color: #000000 !important; 			/* Цвет текста */
+	text-decoration: none !important; 	/* Без подчеркивания */
+	text-align: start !important;		/* Прижать текст влево */
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+.bg_data_tooltip strong a {
+	font-weight: bold !important;		/* Толщина шрифта текста */
+}
+.bg_data_tooltip a:hover {
+	text-decoration: underline !important; 			
+	outline: 0 !important;
+	box-shadow: none !important;
+	color: #000 !important;
+}
+.bg_data_tooltip table,
+.bg_data_tooltip tr,
+.bg_data_tooltip td
+ {
+	margin: 0px !important;
+	padding: 0px !important;
+	border: 0px !important;
+}
+
+.bg_data_verses {
+	display: block; 
+	width: 100%;
+}
+
+.bg_data_verses::-webkit-scrollbar {
+    width: 8px;
+}
+.bg_data_verses::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 4px;	
+}
+.bg_data_verses::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.bg_expand_button {
+	cursor:pointer; 
+	margin-right: 8px;
+	text-align: left;
+}
+
+#bg_BG_overlay {
+  background-color: #000;	/* Чёрный фон */
+  height: 100%;				/* Высота максимальна */
+  left: 0;					/* Нулевой отступ слева */
+  opacity: 0.50;			/* Степень прозрачности */
+  position: fixed;			/* Фиксированное положение */
+  top: 0;					/* Нулевой отступ сверху */
+  width: 100%;				/* Ширина максимальна */
+  z-index: 100;				/* Заведомо быть НАД другими элементами */
+}

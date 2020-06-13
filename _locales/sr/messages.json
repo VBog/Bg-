@@ -1,0 +1,356 @@
+﻿{
+   "extDescription": {
+      "description": "",
+      "message": "Црквени календар и референце за стихове Библије указане у текстовима, дела Светаца и црквених писаца."
+   },
+   "extName": {
+      "description": "",
+      "message": "Азбука верe"
+   },
+
+   "extOptions": {
+      "description": "",
+      "message": "Параметри"
+   },
+   "extReadMe": {
+      "description": "",
+      "message": "Опис проширења"
+   },
+   "extWebStore": {
+      "description": "",
+      "message": "Проширење у Web Store"
+   },
+
+    "extActiveTitle": {
+      "description": "",
+      "message": "истакнути референце"
+	},
+    "extSiteTree": {
+      "description": "",
+      "message": "Дрво сајта"
+	},
+    "extCalendar": {
+      "description": "",
+      "message": "Календар"
+	},
+    "extCatalogue": {
+      "description": "",
+      "message": "Каталог"
+	},
+    "extSearchPlaceholder": {
+      "description": "",
+      "message": "Претрага по «Азбуци вере»"
+	},
+    "extABCindex": {
+      "description": "",
+      "message": "Речник:"
+	},
+    "extBibleTitle": {
+      "description": "",
+      "message": "Библија"
+	},
+    "extLibraryTitle": {
+      "description": "",
+      "message": "Библиотека Светаца и црквених писаца"
+	},
+    "extLibraryLink": {
+      "description": "",
+      "message": "https://azbyka.ru/otechnik"
+	},
+
+  
+	"extTab1Desc": {
+		"description": "",
+		"message": "Заједнички"
+	},
+	"extTab2Desc": {
+		"description": "",
+		"message": "Линкови за Библију"
+	},
+	"extDefPopupDesc": {
+		"description": "",
+		"message": "Прозор проширења подразумевано:"
+	},
+	"extCalendarDesc": {
+		"description": "",
+		"message": "Православни календар"
+	},
+	"extCatalogDesc": {
+		"description": "",
+		"message": "Каталози портала «Азбука вере»"
+	},
+	"extTreeDesc": {
+		"description": "",
+		"message": "Дрво сајта «Азбука вере»"
+	},
+	"extTroparionDesc": {
+		"description": "",
+		"message": "Тропари и кондаки"
+	},
+	"extDateDesc": {
+		"description": "",
+		"message": "Позадинско истакнути датума у календару"
+	},
+	"extDateHelp": {
+		"description": "",
+		"message": "Проширење проналази датуме у тексту и додаје им референце \nза одговарајуће датуме у Православном Црквеном календару."
+	},
+ 	"extAuthorLinkDesc": {
+      "description": "",
+      "message": "позадинско истакнути имена Светаца и црквених писаца"
+   },
+ 	"extAuthorLinkHelp": {
+      "description": "",
+      "message": "Проширење проналази у тексту имена познатих аутора и додаје им референце \nза њихова дела у Библиотеци Светаца и црквених писаца."
+   },
+ 	"extTermLinkDesc": {
+      "description": "",
+      "message": "Позадинско истакнути богословских термина"
+   },
+ 	"extTermLinkHelp": {
+      "description": "",
+      "message": "Проширење проналази у тексту богословске термине и додаје им референце \nза чланаке из «Азбуке вере»."
+   },
+   
+ 	"extWestEstColDesc": {
+      "description": "",
+      "message": "Колизиjе између западне и источне нотације"
+   },
+ 	"extWestEstColHelp": {
+      "description": "",
+      "message": "Проширење издваја референце из источне, и из западне нотације. При том се може појавити колизиja у правилном разумевању референци, које садрже два броја, написаних са запетом (например, Пс. 4,6). У западној нотацији то ће бити референца за Псалам 4 стих 6, а у источној — референца за Псалам 4 и 6. Можете самостално изабрати, разумевање тих референца у подешавањима, или оперативно се пребацити између режима на страници, притиснувши комбинацију тастатуре Ctrl+Alt+N."
+   },
+ 	"extPlayerHelp": {
+      "description": "",
+      "message": "Комбинација Ctrl+Shift+0\nпомоћи ће да се укључи/искључи аудиоплејер\nпри затвореном прозору проширења/чак \nи кад не ради Chrome"
+   },				
+ 	"PlayTitle": {
+      "description": "",
+      "message": "Репродуковати"
+   },				
+ 	"PauseTitle": {
+      "description": "",
+      "message": "Пауза"
+   },				
+					
+   "txtcolorDesc": {
+      "description": "",
+      "message": "Боја текста референци:"
+   },
+   "bgcolorDesc": {
+      "description": "",
+      "message": "Боја позадине референци:"
+   },
+
+   "extHotKeyDesc": {
+      "description": "",
+      "message": " - укључити/искључити истакнути свих референци"
+   },
+
+   "azbykaLangs": {
+      "description": "",
+      "message": "Језици текста Библије на Azbyka.ru"
+   },
+   "cLang": {
+      "description": "",
+      "message": "Црквенословенски"
+   },
+   "rLang": {
+      "description": "",
+      "message": "Руски"
+   },
+   "gLang": {
+      "description": "",
+      "message": "Грчки"
+   },
+   "lLang": {
+      "description": "",
+      "message": "Латински"
+   },
+   "iLang": {
+      "description": "",
+      "message": "Хебрејски"
+   },
+
+   "aLang": {
+      "description": "",
+      "message": "Енглески"
+   },
+   "nLang": {
+      "description": "",
+      "message": "Арапски"
+   },
+   "vLang": {
+      "description": "",
+      "message": "Белоруски"
+   },
+   "uLang": {
+      "description": "",
+      "message": "Грузински"
+   },
+   "wLang": {
+      "description": "",
+      "message": "Шпански"
+   },
+   "sLang": {
+      "description": "",
+      "message": "Киргиски"
+   },
+   "qLang": {
+      "description": "",
+      "message": "Кинески (упр.)"
+   },
+   "mLang": {
+      "description": "",
+      "message": "Немачки"
+   },
+ 	"zLang": {
+      "description": "",
+      "message": "Српски"
+   },
+   "pLang": {
+      "description": "",
+      "message": "Таџикистански"
+   },
+   "tLang": {
+      "description": "",
+      "message": "Татарски"
+   },
+   "oLang": {
+      "description": "",
+      "message": "Узбекистански"
+   },
+   "kLang": {
+      "description": "",
+      "message": "Украјински"
+   },
+   "hLang": {
+      "description": "",
+      "message": "Французски"
+   },
+
+   "azbykaFont": {
+      "description": "",
+      "message": "Фонт за црквенословенски језик"
+   },
+   "ucsFont": {
+      "description": "",
+      "message": "Црквенословенски фонт"
+   },
+   "rusFont": {
+      "description": "",
+      "message": "Руска слова (\"Стари\" стил)"
+   },
+  
+   
+ 	"extReplaceHrefDesc": {
+      "description": "",
+      "message": "Референце за Библију на другим сајтовима заменити референцама за Библију из «Азбуке вере»"
+   },
+ 	"extNoDotDesc": {
+      "description": "",
+      "message": "Одсуство тачке после назива књиге - за целе речи (Jов, Рут и т.д.)\nдозвољено увек"
+   },
+
+ 	"extWestEstCol0Exm": {
+      "description": "",
+      "message": "западна нотација: Пс.4,6 -  псалам 4 стих 6."
+   },
+ 	"extWestEstCol1Exm": {
+      "description": "",
+      "message": "источна нотација: Пс.4,6 - псалми 4 и 6."
+   },
+ 	"extWestEstTriggerDesc": {
+      "description": "",
+      "message": " - пребацивање режима"
+   },
+ 	"extPopupVersesDesc": {
+      "description": "",
+      "message": " Искачући прозор са текстом Библије"
+   },
+ 	"extInterpretationDesc": {
+      "description": "",
+      "message": "Референце за тумачење Библије"
+   },
+ 	"extInterpretationTitle": {
+      "description": "",
+      "message": "Прећи на тумачење А.П.Лопухина"
+   },
+ 	"extBookTitle": {
+      "description": "",
+      "message": "Прећи на текст Библије"
+   },
+   
+ 	"langBibleDesc": {
+   
+      "description": "",
+      "message": "Језик библије у објашњењу:"
+   },
+ 	"sysBible": {
+      "description": "",
+      "message": "Системски језик"
+   },
+ 	"cuBible": {
+      "description": "",
+      "message": "Црквенословенски"
+   },
+ 	"ruBible": {
+      "description": "",
+      "message": "Руски"
+   },
+ 	"beBible": {
+      "description": "",
+      "message": "Белоруски"
+   },
+ 	"ukBible": {
+      "description": "",
+      "message": "Украјински"
+   },
+ 	"srBible": {
+      "description": "",
+      "message": "Српски"
+   },
+ 	"enBible": {
+      "description": "",
+      "message": "Енглески"
+   },
+   
+
+   "saveResult": {
+      "description": "",
+      "message": "Сачувати"
+   },
+   "saveResultDesc": {
+      "description": "",
+      "message": "Параметри сачувани"
+   },
+   "resetOptions": {
+      "description": "",
+      "message": "Ресет"
+   },
+   "resetOptionsDesc": {
+      "description": "",
+      "message": "Враћена су подразумевана подешавања"
+   },
+   "extCopyright": {
+      "description": "",
+      "message": "Православна енциклопедија «Азбука вере»"
+   },
+   "extVersion": {
+      "description": "",
+      "message": "Верзија"
+   },
+   
+   "extReview1": {
+      "description": "",
+      "message": "Ако Вам се свидело наше проширење, оцените га у"
+   },
+   "webStore": {
+      "description": "",
+      "message": "Интернет-Магазин Google"
+   },
+   "extReview2": {
+      "description": "",
+      "message": "Бићемо Вам захвални ако напишете нешто о нама"
+   }
+}

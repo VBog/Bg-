@@ -1,0 +1,354 @@
+{
+   "extDescription": {
+      "description": "",
+      "message": "The church calendar and links to the verses of the Bible and the Holy Fathers and church writers specified in the texts."
+   },
+   "extName": {
+      "description": "",
+      "message": "The ABC of Faith"
+   },
+   "extOptions": {
+      "description": "",
+      "message": "Options"
+   },
+   "extReadMe": {
+      "description": "",
+      "message": "Extention discription"
+   },
+   "extWebStore": {
+      "description": "",
+      "message": "Extention in Web Store"
+   },
+   
+    "extActiveTitle": {
+      "description": "",
+      "message": "highlight links"
+	},
+    "extSiteTree": {
+      "description": "",
+      "message": "Site tree"
+	},
+    "extCalendar": {
+      "description": "",
+      "message": "Calendar"
+	},
+    "extCatalogue": {
+      "description": "",
+      "message": "Catalog"
+	},
+    "extABCindex": {
+      "description": "",
+      "message": "Dictionary:"
+	},
+    "extSearchPlaceholder": {
+      "description": "",
+      "message": "Search on «ABC of Faith»"
+	},
+    "extBibleTitle": {
+      "description": "",
+      "message": "Bible"
+	},
+    "extLibraryTitle": {
+      "description": "",
+      "message": "Orthodox Christian books"
+	},
+    "extLibraryLink": {
+      "description": "",
+      "message": "https://azbyka.ru/otechnik/world"
+	},
+   
+	"extTab1Desc": {
+		"description": "",
+		"message": "General"
+	},
+	"extTab2Desc": {
+		"description": "",
+		"message": "Bible references"
+	},
+
+	"extDefPopupDesc": {
+		"description": "",
+		"message": "Default extention window:"
+	},
+	"extCalendarDesc": {
+		"description": "",
+		"message": "Orthodox calendar"
+	},
+	"extCatalogDesc": {
+		"description": "",
+		"message": "Catalogs of the portal \"The ABC of Faith\""
+	},
+	"extTreeDesc": {
+		"description": "",
+		"message": "\"The ABC of Faith\" site tree"
+	},
+	"extTroparionDesc": {
+		"description": "",
+		"message": "Troparion & Kontakion"
+	},
+   "extDateDesc": {
+      "description": "",
+      "message": "Highlight dates"
+   },
+	"extDateHelp": {
+		"description": "",
+		"message": "The extension finds the calendar dates on the page and adds links to days in the Orthodox calendar."
+	},
+ 	"extAuthorLinkDesc": {
+      "description": "",
+      "message": "Highlight names of Holy Fathers and Church Writers"
+   },
+ 	"extAuthorLinkHelp": {
+      "description": "",
+      "message": "The extension finds on the page the names of famous authors and adds links to their books in the Library of Holy Fathers and Church Writers."
+   },
+ 	"extTermLinkDesc": {
+      "description": "",
+      "message": "Highlight theological terms"
+   },
+ 	"extTermLinkHelp": {
+      "description": "",
+      "message": "The extension finds on the page theological terms and adds links to the dictionary articles of the Encyclopedia «ABC of Faith»."
+   },
+
+
+	"azbykaLangs": {
+      "description": "",
+      "message": "Languages of the Bible text on Azbyka.ru"
+   },
+   "cLang": {
+      "description": "",
+      "message": "Church Slavic"
+   },
+   "rLang": {
+      "description": "",
+      "message": "Russian"
+   },
+   "gLang": {
+      "description": "",
+      "message": "Greek"
+   },
+   "lLang": {
+      "description": "",
+      "message": "Latin"
+   },
+   "iLang": {
+      "description": "",
+      "message": "Hebrew"
+   },
+   "aLang": {
+      "description": "",
+      "message": "English"
+   },
+   "nLang": {
+      "description": "",
+      "message": "Arabic"
+   },
+   "vLang": {
+      "description": "",
+      "message": "Belorussian"
+   },
+   "uLang": {
+      "description": "",
+      "message": "Georgian"
+   },
+   "wLang": {
+      "description": "",
+      "message": "Spanish"
+   },
+   "sLang": {
+      "description": "",
+      "message": "Kyrgyz"
+   },
+   "qLang": {
+      "description": "",
+      "message": "Chinese (simp.)"
+   },
+   "mLang": {
+      "description": "",
+      "message": "German"
+   },
+ 	"zLang": {
+      "description": "",
+      "message": "Serbian"
+   },
+   "pLang": {
+      "description": "",
+      "message": "Tajik"
+   },
+   "tLang": {
+      "description": "",
+      "message": "Tartarian"
+   },
+   "oLang": {
+      "description": "",
+      "message": "Uzbek"
+   },
+   "kLang": {
+      "description": "",
+      "message": "Ukrainian"
+   },
+   "hLang": {
+      "description": "",
+      "message": "French"
+   },
+
+   
+   "azbykaFont": {
+      "description": "",
+      "message": "Font for Church Slavonic text"
+   },
+   "ucsFont": {
+      "description": "",
+      "message": "Church Slavic font"
+   },
+   "rusFont": {
+      "description": "",
+      "message": "Russian font (\"Old\" style)"
+   },
+  
+   
+   "extReplaceHrefDesc": {
+      "description": "",
+      "message": "Links to Bible on other sites replaces with links to Bible on the «ABC of Faith»"
+   },
+ 	"extNoDotDesc": {
+      "description": "",
+      "message": "Allow no dot after the book title - for whole words (Job, Ruth, etc.), always"
+   },
+
+ 	"extWestEstColDesc": {
+      "description": "",
+      "message": "Conflict between the western and eastern notations"
+   },
+ 	"extWestEstColHelp": {
+      "description": "",
+      "message": "The extension highlights references in both eastern and western notation.There is collision what is mean the reference containing two numbers devided by a comma (for example, Ps. 4,6). In the Western tradition, this is reference to Psalm 4 verse 6, but in the east tradition it is reference to Psalms 4 and 6. You can choose how to interpret such links by specifying it in the settings, or quickly switch between modes on the page by pressing the key combination Ctrl+Alt+N."
+   },
+ 	"extPlayerHelp": {
+      "description": "",
+      "message": "The shortcut Ctrl+Shift+0\ncan turns on/off the audio player\nwhen the extension window is closed\nand even when Chrome is idle."
+   },				
+ 	"PlayTitle": {
+      "description": "",
+      "message": "Play"
+   },				
+ 	"PauseTitle": {
+      "description": "",
+      "message": "Pause"
+   },				
+ 	"extWestEstCol0Exm": {
+      "description": "",
+      "message": "western notation: Ps.4,6 -  psalm 4 verse 6."
+   },
+ 	"extWestEstCol1Exm": {
+      "description": "",
+      "message": "eastern notation: Ps.4,6 - psalms 4 and 6."
+   },
+ 	"extWestEstTriggerDesc": {
+      "description": "",
+      "message": " - mode switch"
+   },
+ 	"extPopupVersesDesc": {
+      "description": "",
+      "message": " Tooltip with Bible versions"
+   },
+ 	"extInterpretationDesc": {
+      "description": "",
+      "message": " Links to Bible Interpretation"
+   },
+ 	"extInterpretationTitle": {
+      "description": "",
+      "message": "Go to Bible interpretation by Lopukhin"
+   },
+ 	"extBookTitle": {
+      "description": "",
+      "message": "Go to Bible verses"
+   },
+   
+ 	"langBibleDesc": {
+      "description": "",
+      "message": "Bible language in tooltip:"
+   },
+ 	"sysBible": {
+      "description": "",
+      "message": "System language"
+   },
+ 	"cuBible": {
+      "description": "",
+      "message": "Church Slavic"
+   },
+ 	"ruBible": {
+      "description": "",
+      "message": "Russian"
+   },
+ 	"beBible": {
+      "description": "",
+      "message": "Belorussian"
+   },
+ 	"ukBible": {
+      "description": "",
+      "message": "Ukrainian"
+   },
+ 	"srBible": {
+      "description": "",
+      "message": "Serbian"
+   },
+ 	"enBible": {
+      "description": "",
+      "message": "English"
+   },
+   
+   "txtcolorDesc": {
+      "description": "",
+      "message": "Link's text color:"
+   },
+   "bgcolorDesc": {
+      "description": "",
+      "message": "Link's background color:"
+   },
+
+   "extHotKeyDesc": {
+      "description": "",
+      "message": "hot key to on/off of highlighting"
+   },
+
+  
+   "saveResult": {
+      "description": "",
+      "message": "Save"
+   },
+   "saveResultDesc": {
+      "description": "",
+      "message": "Options saved"
+   },
+   "resetOptions": {
+      "description": "",
+      "message": "Reset"
+   },
+   "resetOptionsDesc": {
+      "description": "",
+      "message": "Default settings restored"
+   },
+   "extCopyright": {
+      "description": "",
+      "message": "Orthodox Encyclopedia «ABC of Faith»"
+   },
+   "extVersion": {
+      "description": "",
+      "message": "Version"
+   },
+   
+   "extReview1": {
+      "description": "",
+      "message": "If you like our extension, please rate it in the"
+   },
+   "webStore": {
+      "description": "",
+      "message": "Chrome web store"
+   },
+   "extReview2": {
+      "description": "",
+      "message": "We will be grateful if you write a few words about it"
+   }
+}

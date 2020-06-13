@@ -1,0 +1,356 @@
+{
+   "extDescription": {
+      "description": "",
+      "message": "Церковный календарь и ссылки на указанные в текстах стихи Библии, труды Святых отцов и церковных писателей."
+   },
+   "extName": {
+      "description": "",
+      "message": "Азбука веры"
+   },
+
+   "extOptions": {
+      "description": "",
+      "message": "Параметры"
+   },
+   "extReadMe": {
+      "description": "",
+      "message": "Описание расширения"
+   },
+   "extWebStore": {
+      "description": "",
+      "message": "Расширение в Web Store"
+   },
+
+    "extActiveTitle": {
+      "description": "",
+      "message": "подсветка ссылок"
+	},
+    "extSiteTree": {
+      "description": "",
+      "message": "Древо сайта"
+	},
+    "extCalendar": {
+      "description": "",
+      "message": "Календарь"
+	},
+    "extCatalogue": {
+      "description": "",
+      "message": "Каталог"
+	},
+    "extSearchPlaceholder": {
+      "description": "",
+      "message": "Поиск по «Азбукe веры»"
+	},
+    "extABCindex": {
+      "description": "",
+      "message": "Словарь:"
+	},
+    "extBibleTitle": {
+      "description": "",
+      "message": "Библия"
+	},
+    "extLibraryTitle": {
+      "description": "",
+      "message": "Библиотека Святых отцов и церковных писателей"
+	},
+    "extLibraryLink": {
+      "description": "",
+      "message": "https://azbyka.ru/otechnik"
+	},
+
+  
+	"extTab1Desc": {
+		"description": "",
+		"message": "Общие"
+	},
+	"extTab2Desc": {
+		"description": "",
+		"message": "Ссылки на Библию"
+	},
+	"extDefPopupDesc": {
+		"description": "",
+		"message": "Окно расширения по умолчанию:"
+	},
+	"extCalendarDesc": {
+		"description": "",
+		"message": "Православный календарь"
+	},
+	"extCatalogDesc": {
+		"description": "",
+		"message": "Каталоги портала «Азбука веры»"
+	},
+	"extTreeDesc": {
+		"description": "",
+		"message": "Древо сайта «Азбука веры»"
+	},
+	"extTroparionDesc": {
+		"description": "",
+		"message": "Тропари и кондаки"
+	},
+	"extDateDesc": {
+		"description": "",
+		"message": "Подсветка календарных дат"
+	},
+	"extDateHelp": {
+		"description": "",
+		"message": "Расширение находит в тексте календарные даты и добавляет к ним ссылки\nна соответствующие дни в Православном Церковном календаре."
+	},
+ 	"extAuthorLinkDesc": {
+      "description": "",
+      "message": "Подсветка имён Святых отцов и церковных писателей"
+   },
+ 	"extAuthorLinkHelp": {
+      "description": "",
+      "message": "Расширение находит в тексте имена известных авторов и добавляет к ним ссылки\nна их труды в Библиотеке Святых отцов и церковных писателей."
+   },
+ 	"extTermLinkDesc": {
+      "description": "",
+      "message": "Подсветка богословских терминов"
+   },
+ 	"extTermLinkHelp": {
+      "description": "",
+      "message": "Расширение находит в тексте богословские термины и добавляет к ним ссылки\nна словарные статьи энциклопедии «Азбука веры»."
+   },
+   
+ 	"extWestEstColDesc": {
+      "description": "",
+      "message": "Коллизия между западной и восточной нотациями"
+   },
+ 	"extWestEstColHelp": {
+      "description": "",
+      "message": "Расширение подсвечивает ссылки как в восточной, так и в западной нотации. При этом может возникнуть коллизия с правильностью трактовки ссылки, содержащей два числа, указанных через запятую (например, Пс. 4,6). В западной традиции это будет ссылка на Псалом 4 стих 6, а в восточной — ссылка на Псалмы 4 и 6. Вы можете самостоятельно выбрать, как интерпретировать такие ссылки, указав это в настройках, или оперативно переключиться между режимами на странице, нажав комбинацию клавиш Ctrl+Alt+N."
+   },
+ 	"extPlayerHelp": {
+      "description": "",
+      "message": "Комбинация клавиш Ctrl+Shift+0\nможет вкл./выкл. аудиоплеер\nпри закрытом окне расширения\nи даже при неработающем Chrome"
+   },				
+ 	"PlayTitle": {
+      "description": "",
+      "message": "Воспроизвести"
+   },				
+ 	"PauseTitle": {
+      "description": "",
+      "message": "Пауза"
+   },				
+					
+   "txtcolorDesc": {
+      "description": "",
+      "message": "Цвет текста ссылок:"
+   },
+   "bgcolorDesc": {
+      "description": "",
+      "message": "Цвет фона ссылок:"
+   },
+
+   "extHotKeyDesc": {
+      "description": "",
+      "message": " - вкл./выкл. подсветки всех ссылок"
+   },
+
+   "azbykaLangs": {
+      "description": "",
+      "message": "Языки текста Библии на Azbyka.ru"
+   },
+   "cLang": {
+      "description": "",
+      "message": "Церковнославянский"
+   },
+   "rLang": {
+      "description": "",
+      "message": "Русский"
+   },
+   "gLang": {
+      "description": "",
+      "message": "Греческий"
+   },
+   "lLang": {
+      "description": "",
+      "message": "Латинский"
+   },
+   "iLang": {
+      "description": "",
+      "message": "Иврит"
+   },
+
+   "aLang": {
+      "description": "",
+      "message": "Английский"
+   },
+   "nLang": {
+      "description": "",
+      "message": "Арабский"
+   },
+   "vLang": {
+      "description": "",
+      "message": "Белорусский"
+   },
+   "uLang": {
+      "description": "",
+      "message": "Грузинский"
+   },
+   "wLang": {
+      "description": "",
+      "message": "Испанский"
+   },
+   "sLang": {
+      "description": "",
+      "message": "Киргизский"
+   },
+   "qLang": {
+      "description": "",
+      "message": "Китайский (упр.)"
+   },
+   "mLang": {
+      "description": "",
+      "message": "Немецкий"
+   },
+ 	"zLang": {
+      "description": "",
+      "message": "Сербский"
+   },
+   "pLang": {
+      "description": "",
+      "message": "Таджикский"
+   },
+   "tLang": {
+      "description": "",
+      "message": "Татарский"
+   },
+   "oLang": {
+      "description": "",
+      "message": "Узбекский"
+   },
+   "kLang": {
+      "description": "",
+      "message": "Украинский"
+   },
+   "hLang": {
+      "description": "",
+      "message": "Французский"
+   },
+
+   "azbykaFont": {
+      "description": "",
+      "message": "Шрифт для церковнославянского текста"
+   },
+   "ucsFont": {
+      "description": "",
+      "message": "Церковнославянский шрифт"
+   },
+   "rusFont": {
+      "description": "",
+      "message": "Русские буквы (\"Старый\" стиль)"
+   },
+  
+   
+ 	"extReplaceHrefDesc": {
+      "description": "",
+      "message": "Ссылки на Библию на других сайтах заменять ссылками на Библию на «Азбуке веры»"
+   },
+ 	"extNoDotDesc": {
+      "description": "",
+      "message": "Отсутствие точки после названия книги - для целых слов (Иов, Руфь и т.д.)\nразрешено всегда"
+   },
+
+ 	"extWestEstCol0Exm": {
+      "description": "",
+      "message": "западная нотация: Пс.4,6 -  псалом 4 стих 6."
+   },
+ 	"extWestEstCol1Exm": {
+      "description": "",
+      "message": "восточная нотация: Пс.4,6 - псалмы 4 и 6."
+   },
+ 	"extWestEstTriggerDesc": {
+      "description": "",
+      "message": " - переключение режимов"
+   },
+ 	"extPopupVersesDesc": {
+      "description": "",
+      "message": " Всплывающее окно с текстом Библии"
+   },
+ 	"extInterpretationDesc": {
+      "description": "",
+      "message": " Ссылки на толкование Библии"
+   },
+ 	"extInterpretationTitle": {
+      "description": "",
+      "message": "Перейти к толкованиям А.П.Лопухина"
+   },
+ 	"extBookTitle": {
+      "description": "",
+      "message": "Перейти к тексту Библии"
+   },
+   
+ 	"langBibleDesc": {
+   
+      "description": "",
+      "message": "Язык Библии в подсказке:"
+   },
+ 	"sysBible": {
+      "description": "",
+      "message": "Системный язык"
+   },
+ 	"cuBible": {
+      "description": "",
+      "message": "Церковнославянский"
+   },
+ 	"ruBible": {
+      "description": "",
+      "message": "Русский"
+   },
+ 	"beBible": {
+      "description": "",
+      "message": "Белорусский"
+   },
+ 	"ukBible": {
+      "description": "",
+      "message": "Украинский"
+   },
+ 	"srBible": {
+      "description": "",
+      "message": "Сербский"
+   },
+ 	"enBible": {
+      "description": "",
+      "message": "Английский"
+   },
+   
+
+   "saveResult": {
+      "description": "",
+      "message": "Сохранить"
+   },
+   "saveResultDesc": {
+      "description": "",
+      "message": "Параметры сохранены"
+   },
+   "resetOptions": {
+      "description": "",
+      "message": "Сброс"
+   },
+   "resetOptionsDesc": {
+      "description": "",
+      "message": "Восстановлены настройки по умолчанию"
+   },
+   "extCopyright": {
+      "description": "",
+      "message": "Православная энциклопедия «Азбука веры»"
+   },
+   "extVersion": {
+      "description": "",
+      "message": "Версия"
+   },
+   
+   "extReview1": {
+      "description": "",
+      "message": "Если вам понравилось наше расширение, оцените его в"
+   },
+   "webStore": {
+      "description": "",
+      "message": "Интернет-Магазине Google"
+   },
+   "extReview2": {
+      "description": "",
+      "message": "Мы будем вам благодарны, если вы напишете о нем несколько слов"
+   }
+}
