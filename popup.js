@@ -588,6 +588,7 @@ function createDay(today, data) {
 	if (localStorage["extTroparion"]) html += troparion();
 	html += '</div>';
 //	html += infoline();
+	html += '<tr><td style="text-align: left;" colspan=4><div class="decorator"></div></td></tr>';
 		
 	return html;
 }
@@ -947,20 +948,24 @@ function createTree() {
 			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/spravochniki/" title="Словари, справочники"><img src="img/icons/otechnik.png"> Справочники</span></td>'+
 			'</tr>';
 	html += '<tr>'+
-			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/audio/" title="Православные аудиокниги, песнопения,\nпроповеди, молитвы, жития святых."><img src="img/icons/audio.png"> Аудио</span></td>'+
+			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/vopros/" title="Вопросы и ответы о православном христианстве"><img src="img/icons/vopros.png"> Вопросы и ответы</span></td>'+
 			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/deti/" title="Сайт для родителей"><img src="img/icons/deti.png"> Азбука воспитания</span></td>'+
 			'</tr>';
 	html += '<tr>'+
-			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/video/" title="Видеочтения Священного Писания.\nВидеопроповеди"><img src="img/icons/video.png"> Видео</span></td>'+
+			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/audio/" title="Православные аудиокниги, песнопения,\nпроповеди, молитвы, жития святых."><img src="img/icons/audio.png"> Аудио</span></td>'+
 			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/znakomstva/" title="Православная служба знакомств"><img src="img/icons/znakomstva.png"> Азбука верности</span></td>'+
 			'</tr>';
 	html += '<tr>'+
-			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/parkhomenko/foto/" title="Фоторассказы священника\nКонстантина Пархоменко"><img src="img/icons/parkhomenko.png"> Фоторассказы</span></td>'+
+			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/video/" title="Видеочтения Священного Писания.\nВидеопроповеди"><img src="img/icons/video.png"> Видео</span></td>'+
 			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/zdorovie/" title="Православный сайт о здоровье"><img src="img/icons/zdorovie.png"> Азбука здоровья</span></td>'+
 			'</tr>';
 	html += '<tr>'+
-			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/viktorina/" title="Православные фотовикторины"><img src="img/icons/viktorina.png"> Фотовикторины</span></td>'+
+			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/parkhomenko/foto/" title="Фоторассказы священника\nКонстантина Пархоменко"><img src="img/icons/parkhomenko.png"> Фоторассказы</span></td>'+
 			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/palomnik/" title="Монастыри, храмы, православные святыни мира"><img src="img/icons/palomnik.png"> Азбука паломника</span></td>'+
+			'</tr>';
+	html += '<tr>'+
+			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/viktorina/" title="Православные фотовикторины"><img src="img/icons/viktorina.png"> Фотовикторины</span></td>'+
+			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/palomnik/blogs/" title="Напишите свою историю православного паломника"><img src="img/icons/palomnik.png"> Истории паломников</span></td>'+
 			'</tr>';
 	html += '<tr>'+
 			'<td width="50%"><span class="siteleaf hlink" data-url="https://azbyka.ru/propovedi/" title="Сборник проповедей\nправославных проповедников"><img src="img/icons/propovedi.png"> Проповеди</span></td>'+
@@ -1289,7 +1294,8 @@ function showOPDS (url) {
 					opds += '<tr><td><p style="text-align: center;"><i>Ничего не найдено</i></p>\n</td></tr>\n';
 				}
 				opds += '</table>\n</div>\n';
-				
+				opds += '<tr><td style="text-align: left;" colspan=4><div class="decorator"></div></td></tr>';
+			
 	//			document.getElementById("extCalendar").innerHTML = opds;
 				setContent(document.getElementById("extCalendar"), opds);
 				if ((/chrome/i.test(navigator.userAgent)) || (/edge/i.test(navigator.userAgent))) {

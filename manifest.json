@@ -1,6 +1,6 @@
 {
 	"name": "__MSG_extName__",
-	"version": "3.6.4",
+	"version": "3.6.5",
 	"manifest_version": 2,
 	"minimum_chrome_version": "62",
 	"default_locale": "ru",
@@ -21,6 +21,7 @@
 		"scripts": [ "reconnecting-websocket.min.js", "background.js" ]
 	},
 	"permissions": [ 
+		"activeTab",
 		"contextMenus", 
 		"tabs", 
 		"storage"
