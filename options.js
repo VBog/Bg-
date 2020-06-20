@@ -3,7 +3,7 @@
 function loadOptionsPage () {
 	// Значения по умолчанию
 	if (localStorage["extCalendar"] === undefined) localStorage["extCalendar"] = '1';
-	if (localStorage["languages"] === undefined) localStorage["languages"] = '&cr';
+	if (localStorage["languages"] === undefined) localStorage["languages"] = '';
 
 	if (localStorage["extTroparion"] === undefined) localStorage["extTroparion"] = '';
 
@@ -73,10 +73,38 @@ function loadOptionsPage () {
 	
 	if (/firefox/i.test(navigator.userAgent) ) {
 		document.getElementById("webStore").innerText = "Firefox Add-Ons";
-		document.getElementById("webStoreLink").href = "https://addons.mozilla.org/ru/firefox/addon/%D0%B0%D0%B7%D0%B1%D1%83%D0%BA%D0%B0-%D0%B2%D0%B5%D1%80%D1%8B/";
+		document.getElementById("webStore").data.url = "https://addons.mozilla.org/ru/firefox/addon/%D0%B0%D0%B7%D0%B1%D1%83%D0%BA%D0%B0-%D0%B2%D0%B5%D1%80%D1%8B/";
 		
 	} else {
 		document.getElementById("webStore").innerText = chrome.i18n.getMessage("webStore");
+	}
+	hlink ();
+
+/******************************************************************
+	Создает ссылки из элементов класса hlink
+	url - в атрибуте data-url
+	
+*******************************************************************/
+	function hlink () {
+		// Всем ссылкам присваиваем класс hlink
+		var links = document.getElementsByTagName("a");
+		for (var i = 0; i < links.length; i++) {
+			if(!links[i].classList.contains('hlink')) {
+				links[i].classList.add('hlink');
+			}
+		}
+		// Chrome extension: open a link from popup.html in a new tab
+		var links = document.getElementsByClassName("hlink");
+		for (var i = 0; i < links.length; i++) {
+			(function () {
+			var url = links[i].getAttribute('data-url');
+				if (url) {
+					links[i].onclick = function () {
+						chrome.tabs.create({active: true, url: url});
+					};
+				} 
+			})();
+		}
 	}
 
 //	document.getElementById("extDefPopupDesc").innerText = chrome.i18n.getMessage("extDefPopupDesc");
