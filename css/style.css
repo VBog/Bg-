@@ -588,11 +588,10 @@ img.calDayImage {
 }
 #calSetDay {
 	border: 0px;
-	width:18px;
-	height: 18px; 
 	margin: 1px;
-	background: transparent url(../img/calendar_2.png) 50% 50% no-repeat;
-	background-size: cover;
+    margin-left: -29px;
+	background: transparent url(../img/calendar_2.png) 100% 50% no-repeat;
+	background-size: contain;
 }
 #calSetDay:focus {
 	outline: 0px;
